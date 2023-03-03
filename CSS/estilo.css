@@ -1,0 +1,8 @@
+h1 {color: blue;
+}
+
+h1.page1{
+    color: rgb(113, 170, 235);
+}
+
+body ul li{color: rgb(9, 255, 0);}
