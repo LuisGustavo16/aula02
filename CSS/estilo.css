@@ -1,8 +1,27 @@
-h1 {color: blue;
+h1 {
+    color: blue;
 }
 
-h1.page1{
-    color: rgb(113, 170, 235);
+h2, h2, h3, h4, h5, h6{
+    display: none;
 }
 
-body ul li{color: rgb(9, 255, 0);}
+body ul li{
+    color: rgb(255, 0, 0);
+}
+
+p{
+    text-decoration: underline rgb(0, 0, 0)  0.1rem;
+    text-indent: 1rem;
+}
+
+p.maiusculo{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Rampart One';
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(255, 0, 0), 0 0 1rem rgb(255, 0, 85), 0 0 2rem rgb(247, 6, 214);
+}
