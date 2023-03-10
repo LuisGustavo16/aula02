@@ -1,5 +1,6 @@
 h1 {
-    color: blue;
+    color: rgb(93, 26, 155);
+    border: 0.5rem dotted blueviolet ;
 }
 
 h2, h2, h3, h4, h5, h6{
@@ -21,7 +22,47 @@ p.maiusculo{
     letter-spacing: 1rem;
     line-height: 2rem;
     word-spacing: 2rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     font-family: 'Rampart One';
-    text-shadow: 0.2rem 0.2rem 0.3rem rgb(255, 0, 0), 0 0 1rem rgb(255, 0, 85), 0 0 2rem rgb(247, 6, 214);
+    text-shadow: 0.2rem 0.2rem 0.3rem rgb(255, 0, 0), 0 0 1rem rgb(255, 94, 0), 0 0 2rem rgb(6, 42, 247);
 }
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color:rgb(255, 154, 2);
+}
+
+a:hover{
+    color: rgb(250, 104, 6);
+}
+
+footer{
+    clear: both;
+    background: rgba(205, 209, 201, 0.596) url("../img/vovo.png") no-repeat left bottom;
+    height: 1rem;
+}
+
+div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2rem;
+    background-color: rgb(226, 69, 174);
+    color: white;
+    border: 0.2rem solid rgb(193, 38, 240);
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+
+h1#page1{
+    color:blueviolet;
+    border: 0.3rem dashed purple;
+}
+ img{
+    width: 20rem;
+ }
+
+ ul{
+    list-style-type: square;
+ }
